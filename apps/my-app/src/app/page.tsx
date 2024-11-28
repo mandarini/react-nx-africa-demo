@@ -1,4 +1,6 @@
 import styles from './page.module.css';
+import { MyLib1 } from '@my-react-wksp/my-lib-1';
+import { MyLib2 } from '@my-react-wksp/my-lib-2';
 
 export default function Index() {
   /*
@@ -14,6 +16,8 @@ export default function Index() {
             <h1>
               <span> Hello there, </span>
               Welcome my-app 👋
+              <MyLib1 />
+              <MyLib2 />
             </h1>
           </div>
 

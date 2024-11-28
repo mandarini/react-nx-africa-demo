@@ -1,0 +1,19 @@
+{
+  "name": "my-util-1",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/utils/my-util-1/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/utils/my-util-1",
+        "main": "libs/utils/my-util-1/src/index.ts",
+        "tsConfig": "libs/utils/my-util-1/tsconfig.lib.json",
+        "assets": ["libs/utils/my-util-1/*.md"]
+      }
+    }
+  }
+}

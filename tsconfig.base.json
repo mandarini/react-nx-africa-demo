@@ -14,7 +14,15 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@my-react-wksp/my-lib-1": ["libs/ui/my-lib-1/src/index.ts"],
+      "@my-react-wksp/my-lib-2": ["libs/ui/my-lib-2/src/index.ts"],
+      "@my-react-wksp/my-lib-3": ["libs/ui/my-lib-3/src/index.ts"],
+      "@my-react-wksp/my-lib-4": ["libs/ui/my-lib-4/src/index.ts"],
+      "@my-react-wksp/my-util-1": ["libs/utils/my-util-1/src/index.ts"],
+      "@my-react-wksp/my-util-2": ["libs/utils/my-util-2/src/index.ts"],
+      "@my-react-wksp/my-util-3": ["libs/utils/my-util-3/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

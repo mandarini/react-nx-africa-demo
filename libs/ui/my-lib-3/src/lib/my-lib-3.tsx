@@ -6,6 +6,7 @@ export function MyLib3() {
     <div className={styles['container']}>
       <h1>Welcome to MyLib3!</h1>
       {myUtil3()}
+      <p>Test</p>
     </div>
   );
 }

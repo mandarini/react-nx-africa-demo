@@ -8,6 +8,7 @@ export function MyLib2() {
       <h1>Welcome to MyLib2!</h1>
       <p>{myUtil2()}</p>
       <MyLib4 />
+      <p>mia allagi</p>
     </div>
   );
 }
